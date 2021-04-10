@@ -5,6 +5,6 @@ function insert(paramsBackground, paramsFavicon) {
 
     console.log(`/image/favicon-${paramsFavicon}.ico`)
     
-    document.querySelector("link[rel='shortcut icon']").setAttribute("href",`/image/favicon-${paramsFavicon}.ico`);
+    document.querySelector("link[rel='shortcut icon']").setAttribute("href",`../image/favicon-${paramsFavicon}.ico`);
     
 }
