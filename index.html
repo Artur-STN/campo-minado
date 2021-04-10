@@ -12,9 +12,13 @@
 
         <link rel="stylesheet" href="css/style.css">
 
-        <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
-
         <script src="javascript/script.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <link rel="shortcut icon" href="imagem/favicon.png" type="image/x-icon">
 
         <title>Menu CSS</title>
 
@@ -24,17 +28,53 @@
 
         <main>
         
-            <h1>Menu <span>CSS</span></h1>
-        
+            <div>
+
+                <h1>Menu <span id="span">CSS</span></h1>
+                
+                <h2>Cascading Style Sheets</h2>
+
+            </div>
         
             <nav>
 
                 <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Message</li>
-                    <li>Help</li>
-                    <li>Setting</li>
+                    
+                    <a href="#">
+                        <li class="Home" onclick="insertBgBody('#F53B57')">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </li>
+                    </a>
+                    
+                    <a href="#">
+                        <li class="Profile" onclick="insertBgBody('#3C40C6')">
+                            <i class="fas fa-user"></i>
+                            <span>Profile</span>
+                        </li>
+                    </a>
+                    
+                    <a href="#">
+                        <li class="Message" onclick="insertBgBody('#05C46B')">
+                            <i class="fas fa-comment"></i>
+                            <span>Message</span>
+                        </li>
+                    </a>
+                    
+                    <a href="#">
+                        <li class="Help" onclick="insertBgBody('#0FBCF9')">
+                            <i class="fas fa-question-circle"></i>
+                            <span>Help</span>
+                        </li>
+                    </a>
+                    
+                    <a href="#">
+                        <li class="Setting" onclick="insertBgBody('#FFA801')">
+                            <i class="fas fa-cog"></i>
+                            <span>Setting</span>
+                        </li>
+                    </a>
+
                 </ul>
 
             </nav>
