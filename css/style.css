@@ -21,6 +21,10 @@
     --azul: #0FBCF9;
     --amarelo: #FFA801;
 
+    --facebook: #3B5998;
+    --twitter: #00ACEE;
+    --instagram: #515BD4, #8134AF, #DD2A7B, #FEDA77 90%, #F58529 100%;
+
 }
 
 body {
@@ -247,6 +251,135 @@ main nav ul li.Help:hover span{
 main nav ul li.Setting:hover span{
 
     color: var(--amarelo);
+
+}
+
+footer {
+
+    background: white;
+
+    width: 100%;
+
+    text-align: center;
+
+    font-size: 2rem;
+
+    position: absolute;
+
+    bottom: 0;
+
+}
+
+footer p {
+
+    margin-bottom: 1rem;
+
+}
+
+footer .socialMedia {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 250px;
+
+    margin: 0 auto 1rem auto;
+
+}
+
+footer .socialMedia .fab {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: black;
+
+    font-size: 2rem;
+
+    text-shadow: 0 0 8px white;
+    box-shadow: 0 0 5px black;
+
+    border-radius: 100px;
+
+    width: 50px;
+    height: 50px;
+
+    transition: all 0.1s;
+
+}
+
+footer .socialMedia .fab:hover {
+
+    color: white;
+    
+    font-size: 2.5rem;
+
+    text-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+
+    border-radius: 15px;
+
+}
+
+footer .socialMedia .fa-facebook-f:hover {
+
+    background: var(--facebook);
+
+}
+
+footer .socialMedia .fa-twitter:hover {
+
+    background: var(--twitter);
+
+}
+
+footer .socialMedia .fa-instagram:hover {
+
+    background-image: linear-gradient(to left bottom, var(--instagram));
+
+}
+
+footer .socialMedia .fa-github:hover {
+
+    background: black;
+
+}
+
+footer a.youtubeLink {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: black;
+
+    font-size: 2rem;
+
+    text-shadow: 0 0 8px white;
+    box-shadow: 0 0 5px black;
+
+    border-radius: 100px;
+
+    width: 50px;
+    height: 50px;
+
+    margin: 0 auto 1rem;
+    padding: 0 1rem;
+
+    transition: all 0.1s;
+
+}
+
+footer a.youtubeLink:hover{
+
+    border-radius: 15px;
+
+    background: #E62117;
+    color: white;
+
+    text-shadow: none;
 
 }
 
